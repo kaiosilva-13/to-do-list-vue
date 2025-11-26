@@ -1,6 +1,6 @@
 # v-for-example
 
-Aplicação de VueJs de uma lista de tarefas, para gerenciamento de atividades. A página web desenvolvida utiliza TypeScript juntamente com VueJS Options API.
+Aplicação de VueJs de uma lista de tarefas, para gerenciamento de atividades. A página web desenvolvida utiliza TypeScript juntamente com VueJS Composition API.
 
 ## Recommended IDE Setup
 
