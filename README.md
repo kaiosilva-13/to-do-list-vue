@@ -1,6 +1,6 @@
 # v-for-example
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicação de VueJs de uma lista de tarefas, para gerenciamento de atividades. A página web desenvolvida utiliza TypeScript juntamente com VueJS Options API.
 
 ## Recommended IDE Setup
 
