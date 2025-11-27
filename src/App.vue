@@ -14,6 +14,8 @@ function adicionar_tarefa(){
     tarefas.value.push(tarefa.value)
     valores_logicos.value.push(false)
     tarefa.value = ""
+  }else{
+    alert("Digite uma tarefa para adicionar no to-do-list!")
   }
 }
 </script>
@@ -27,8 +29,8 @@ function adicionar_tarefa(){
   <div>
     <ol>
       <li v-for="(valor, index) in tarefas" :key="index">
-        <label :for="'${index}'" :class="{tarefaRealizada: valores_logicos[index]}">{{ valor }}</label>
-        <input type="checkbox" :id="'${index}'" v-model="valores_logicos[index]" name="tarefas">
+        <label :for="`${index}`":class="{tarefaRealizada: valores_logicos[index]}">{{ valor }}</label>
+        <input type="checkbox" :id="`${index}`" v-model="valores_logicos[index]" name="tarefas">
       </li>
     </ol>
   </div>
